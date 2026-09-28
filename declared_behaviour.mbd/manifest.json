@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "manifest": {
+    "id": "com.makemind.sample.declared_behaviour",
+    "name": "Declared Behaviour",
+    "version": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "type": "application",
+    "entryPoint": "ui.app",
+    "description": "One page that asks its host for three declared behaviours \u2014 a sound, a position, a map \u2014 and prints only what came back through onSuccess / onError. Whether each is performed or reported is a fact about the host, and the screen never draws a stand-in for the thing it asked for.",
+    "provider": "MakeMind",
+    "license": "MIT",
+    "category": "business",
+    "tags": [
+      "capability",
+      "location",
+      "sound",
+      "map",
+      "sample"
+    ],
+    "publisher": {
+      "name": "makemind.dev",
+      "email": "dev@makemind.dev"
+    }
+  }
+}
